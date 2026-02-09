@@ -4,12 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="237dffe0-313d-4c23-b223-e19d00b35658" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CreacionInformeFinanciero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/InformeFinancieroTrim1.java" afterDir="false" />
+    <list default="true" id="237dffe0-313d-4c23-b223-e19d00b35658" name="Changes" comment="aprendiendo sobre annotations con java spring">
+      <change afterPath="$PROJECT_DIR$/../testing/Annotations/untitled/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testing/Annotations/untitled/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testing/Annotations/untitled/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testing/Annotations/untitled/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testing/Annotations/untitled/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testing/Annotations/untitled/src/main/java/spring/annotations/Alumnos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testing/Annotations/untitled/src/main/java/spring/annotations/CalificacionMinima.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testing/Annotations/untitled/src/main/java/spring/annotations/NotasAlumnos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testing/Annotations/untitled/src/main/java/spring/annotations/ObtenerCalificacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testing/Annotations/untitled/src/main/java/spring/annotations/UsoCalificaciones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testing/Annotations/untitled/src/main/resources/applicationContext.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ComercialExperimentado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ComercialExperimentado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/UsoAnnotations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/UsoAnnotations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +88,19 @@
       <option name="presentableId" value="Default" />
       <updated>1768800137022</updated>
     </task>
+    <task id="LOCAL-00001" summary="aprendiendo sobre annotations con java spring">
+      <option name="closed" value="true" />
+      <created>1770618552444</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1770618552445</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="aprendiendo sobre annotations con java spring" />
+    <option name="LAST_COMMIT_MESSAGE" value="aprendiendo sobre annotations con java spring" />
   </component>
 </project>
