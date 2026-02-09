@@ -10,7 +10,9 @@ public class UsoAnnotations {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
 
         // DESPUÉS PEDIR UN BEAN AL CONTENEDOR
-        Empleados Arturo = context.getBean("ComercialExp", Empleados.class);
+        // SI LA ANNOTATION NO SE LE ASIGNO UN ID Y TOMARA EL NOMBRE DE LA CLASE, HAY QUE COLOCAR EL NOMBRE DE LA CLASE
+        // EMPEZANDO CON LA PRIMERA LETRA EN MINÚSCULA
+        Empleados Arturo = context.getBean("comercialExperimentado", Empleados.class);
 
         // TERCERO USAR EL BEAN
         System.out.println(Arturo.getInforme());
