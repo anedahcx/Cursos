@@ -1,12 +1,33 @@
 package org.example;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
+
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
 
 // A LA ANOTACIÓN SE LE PUEDE DAR EL NOMBRE (ESTE NOMBRE ES EL ID DE LA ANOTACIÓN) QUE SEA Y CON ESTO YA SE A CREADO UN BEAN
 // O PUEDES DEJARLO SIMPLEMENTE CON @Component, ESTO TOMARA EL NOMBRE DE LA CLASE COMO ID
 @Component
+//@Scope("prototype") // ESPECIFICAMOS CON QUE PATRON QUEREMOS TRABAJAR (no se puede trabajar con @PostC y @PreD con prototype)
 public class ComercialExperimentado implements Empleados{
+
+    //--------------------------------------------------------
+    // ESTO SOLO FUNCIONA BAJO EL PATRONS "SINGLENTON"
+    // EJECUCIÓN DE CÓDIGO DESPUÉS DE LA CREACIÓN DEL BEAN
+    @PostConstruct
+    public void ejecutaDespuesCreacion(){
+        System.out.println("Ejecutado tras creación de Bean");
+    }
+    // EJECUCIÓN DE CÓDIGO DESPUES DEL APAGADO DEL CONTENEDOR SPRING
+    @PreDestroy
+    public void ejecutaAntesDestruccion(){
+        System.out.println("Ejecutando antes de la destrucción");
+    }
+    //--------------------------------------------------------
+
 
     // INYECCIÓN DE DEPENDENCIAS CON CONSTRUCTOR E CLASE CON AUTOWIRED
 
@@ -36,5 +57,6 @@ public class ComercialExperimentado implements Empleados{
 
     // CREACIÓN DE VARIABLE PARA INYECCIÓN DE DEPENDENCIA
     @Autowired // TAMBIÉN SE PUEDE INYECTAR DEPENDENCIAS CON UN CAMPO DE CLASE, SOLO PONIENDO AUTOWIRED ARRIBA DEL CAMPO
+    @Qualifier("informeFinancieroTrim4") // bean ID que tiene que utilizar para hacer la inyección de dependencias
     private CreacionInformeFinanciero nuevoInforme;
 }

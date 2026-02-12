@@ -4,19 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="237dffe0-313d-4c23-b223-e19d00b35658" name="Changes" comment="aprendiendo sobre annotations con java spring">
-      <change afterPath="$PROJECT_DIR$/../testing/Annotations/untitled/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testing/Annotations/untitled/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testing/Annotations/untitled/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testing/Annotations/untitled/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testing/Annotations/untitled/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testing/Annotations/untitled/src/main/java/spring/annotations/Alumnos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testing/Annotations/untitled/src/main/java/spring/annotations/CalificacionMinima.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testing/Annotations/untitled/src/main/java/spring/annotations/NotasAlumnos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testing/Annotations/untitled/src/main/java/spring/annotations/ObtenerCalificacion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testing/Annotations/untitled/src/main/java/spring/annotations/UsoCalificaciones.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testing/Annotations/untitled/src/main/resources/applicationContext.xml" afterDir="false" />
+    <list default="true" id="237dffe0-313d-4c23-b223-e19d00b35658" name="Changes" comment="testing básico de annotations java">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/EmpleadosConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/InformeFinancieroTrim2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/InformeFinancieroTrim3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/InformeFinancieroTrim4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/UsoAnnotations2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testing/.idea/testing.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ComercialExperimentado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ComercialExperimentado.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,19 +51,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.UsoAnnotations.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Aned/Documents/Aned/Cursos/Spring/SpringAnnotations/src/main/java/org/example/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;PluginSettings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.UsoAnnotations.executor": "Run",
+    "Application.UsoAnnotations2.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/Aned/Documents/Aned/Cursos/Spring/SpringAnnotations/src/main/java/org/example/Main.java",
+    "settings.editor.selected.configurable": "PluginSettings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Aned\Documents\Aned\Cursos\Spring\SpringAnnotations\src\main\resources" />
@@ -98,6 +95,17 @@
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="aprendiendo sobre annotations con java spring" />
