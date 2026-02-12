@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="237dffe0-313d-4c23-b223-e19d00b35658" name="Changes" comment="testing básico de annotations java">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/EmpleadosConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/InformeFinancieroTrim2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/InformeFinancieroTrim3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/InformeFinancieroTrim4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/UsoAnnotations2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testing/.idea/testing.iml" afterDir="false" />
+    <list default="true" id="237dffe0-313d-4c23-b223-e19d00b35658" name="Changes" comment="uso de anotaciones @Qualifier, @PostConstruct, @PreDestroy (estos dos solo se pueden utilizar con el patron singlenton) y remplazando archivo configurable XML por archivo de configuración JAVA">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DirectorFinanciero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/InformeDepartCompras.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ComercialExperimentado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ComercialExperimentado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/EmpleadosConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/EmpleadosConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/UsoAnnotations2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/UsoAnnotations2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +39,9 @@
     &quot;accountId&quot;: &quot;8f49773c-f1f4-435a-8e62-1d34d8369b39&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 5
@@ -93,7 +93,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770618552445</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="uso de anotaciones @Qualifier, @PostConstruct, @PreDestroy (estos dos solo se pueden utilizar con el patron singlenton) y remplazando archivo configurable XML por archivo de configuración JAVA">
+      <option name="closed" value="true" />
+      <created>1770869902507</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1770869902507</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -109,6 +117,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="aprendiendo sobre annotations con java spring" />
-    <option name="LAST_COMMIT_MESSAGE" value="aprendiendo sobre annotations con java spring" />
+    <MESSAGE value="uso de anotaciones @Qualifier, @PostConstruct, @PreDestroy (estos dos solo se pueden utilizar con el patron singlenton) y remplazando archivo configurable XML por archivo de configuración JAVA" />
+    <option name="LAST_COMMIT_MESSAGE" value="uso de anotaciones @Qualifier, @PostConstruct, @PreDestroy (estos dos solo se pueden utilizar con el patron singlenton) y remplazando archivo configurable XML por archivo de configuración JAVA" />
   </component>
 </project>

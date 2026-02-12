@@ -16,17 +16,10 @@ public class UsoAnnotations2 {
         // DESPUÉS PEDIR UN BEAN AL CONTENEDOR
         // SI LA ANNOTATION NO SE LE ASIGNO UN ID Y TOMARA EL NOMBRE DE LA CLASE, HAY QUE COLOCAR EL NOMBRE DE LA CLASE
         // EMPEZANDO CON LA PRIMERA LETRA EN MINÚSCULA
-        Empleados Arturo = context.getBean("comercialExperimentado", Empleados.class);
-        Empleados Antonio = context.getBean("comercialExperimentado", Empleados.class);
+        Empleados empleado = context.getBean("directorFinanciero", Empleados.class);
 
-        // APUNTAN AL MISMO OBJETO EN MEMORIA?
-        if(Antonio == Arturo){
-            System.out.println("Apuntan al mismo lugar en memoria");
-            System.out.println(Antonio + "\n" + Arturo);
-        } else {
-            System.out.println("No apuntan al mismo lugar en memoria");
-            System.out.println(Antonio + "\n" + Arturo);
-        }
+        System.out.println(empleado.getTareas());
+        System.out.println(empleado.getInforme());
 
         // Y POR ULTIMO CERRAR EL CONTEXTO
         context.close();
