@@ -16,10 +16,17 @@ public class UsoAnnotations2 {
         // DESPUÉS PEDIR UN BEAN AL CONTENEDOR
         // SI LA ANNOTATION NO SE LE ASIGNO UN ID Y TOMARA EL NOMBRE DE LA CLASE, HAY QUE COLOCAR EL NOMBRE DE LA CLASE
         // EMPEZANDO CON LA PRIMERA LETRA EN MINÚSCULA
-        Empleados empleado = context.getBean("directorFinanciero", Empleados.class);
+        /*Empleados empleado = context.getBean("directorFinanciero", Empleados.class);
 
         System.out.println(empleado.getTareas());
-        System.out.println(empleado.getInforme());
+        System.out.println(empleado.getInforme());*/
+
+        // PARA VALUE Y PROPERTY SOURCE
+        DirectorFinanciero empleado = context.getBean("directorFinanciero", DirectorFinanciero.class);
+
+        System.out.println("Email del director: " + empleado.getEmail());
+        System.out.println("Nombre de la empresa: " + empleado.getNombreEmpresa());
+        //
 
         // Y POR ULTIMO CERRAR EL CONTEXTO
         context.close();

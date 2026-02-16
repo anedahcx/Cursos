@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="237dffe0-313d-4c23-b223-e19d00b35658" name="Changes" comment="uso de anotaciones @Qualifier, @PostConstruct, @PreDestroy (estos dos solo se pueden utilizar con el patron singlenton) y remplazando archivo configurable XML por archivo de configuración JAVA">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DirectorFinanciero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/InformeDepartCompras.java" afterDir="false" />
+    <list default="true" id="237dffe0-313d-4c23-b223-e19d00b35658" name="Changes" comment="Uso de anotación @Bean pidiendo al contendor spring con el archivo de configuración JAVA">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/datosEmpresas.propiedades" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DirectorFinanciero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DirectorFinanciero.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/EmpleadosConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/EmpleadosConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/UsoAnnotations2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/UsoAnnotations2.java" afterDir="false" />
     </list>
@@ -51,23 +51,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.UsoAnnotations.executor": "Run",
-    "Application.UsoAnnotations2.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/Aned/Documents/Aned/Cursos/Spring/SpringAnnotations/src/main/java/org/example/Main.java",
-    "settings.editor.selected.configurable": "PluginSettings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.UsoAnnotations.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UsoAnnotations2.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Aned/Documents/Aned/Cursos/Spring/SpringAnnotations/src/main/java/org/example/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;PluginSettings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Aned\Documents\Aned\Cursos\Spring\SpringAnnotations\src\main\resources" />
+      <recent name="C:\Users\Aned\Documents\Aned\Cursos\Spring\SpringAnnotations\src" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -101,7 +102,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770869902507</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Uso de anotación @Bean pidiendo al contendor spring con el archivo de configuración JAVA">
+      <option name="closed" value="true" />
+      <created>1770871440975</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1770871440975</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -118,6 +127,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="aprendiendo sobre annotations con java spring" />
     <MESSAGE value="uso de anotaciones @Qualifier, @PostConstruct, @PreDestroy (estos dos solo se pueden utilizar con el patron singlenton) y remplazando archivo configurable XML por archivo de configuración JAVA" />
-    <option name="LAST_COMMIT_MESSAGE" value="uso de anotaciones @Qualifier, @PostConstruct, @PreDestroy (estos dos solo se pueden utilizar con el patron singlenton) y remplazando archivo configurable XML por archivo de configuración JAVA" />
+    <MESSAGE value="Uso de anotación @Bean pidiendo al contendor spring con el archivo de configuración JAVA" />
+    <option name="LAST_COMMIT_MESSAGE" value="Uso de anotación @Bean pidiendo al contendor spring con el archivo de configuración JAVA" />
   </component>
 </project>
