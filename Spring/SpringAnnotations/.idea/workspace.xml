@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="237dffe0-313d-4c23-b223-e19d00b35658" name="Changes" comment="Uso de anotación @Bean pidiendo al contendor spring con el archivo de configuración JAVA">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/datosEmpresas.propiedades" afterDir="false" />
+    <list default="true" id="237dffe0-313d-4c23-b223-e19d00b35658" name="Changes" comment="Uso de anotación @PropertySource para la inyección de propiedades a objetos con campos @Value">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DirectorFinanciero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DirectorFinanciero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/EmpleadosConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/EmpleadosConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/UsoAnnotations2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/UsoAnnotations2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +106,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770871440975</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Uso de anotación @PropertySource para la inyección de propiedades a objetos con campos @Value">
+      <option name="closed" value="true" />
+      <created>1771211031026</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1771211031026</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -128,6 +132,7 @@
     <MESSAGE value="aprendiendo sobre annotations con java spring" />
     <MESSAGE value="uso de anotaciones @Qualifier, @PostConstruct, @PreDestroy (estos dos solo se pueden utilizar con el patron singlenton) y remplazando archivo configurable XML por archivo de configuración JAVA" />
     <MESSAGE value="Uso de anotación @Bean pidiendo al contendor spring con el archivo de configuración JAVA" />
-    <option name="LAST_COMMIT_MESSAGE" value="Uso de anotación @Bean pidiendo al contendor spring con el archivo de configuración JAVA" />
+    <MESSAGE value="Uso de anotación @PropertySource para la inyección de propiedades a objetos con campos @Value" />
+    <option name="LAST_COMMIT_MESSAGE" value="Uso de anotación @PropertySource para la inyección de propiedades a objetos con campos @Value" />
   </component>
 </project>
