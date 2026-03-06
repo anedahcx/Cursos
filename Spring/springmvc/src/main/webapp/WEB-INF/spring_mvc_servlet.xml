@@ -16,7 +16,7 @@
 
 	<mvc:annotation-driven/>
 
-	<!-- Configuración del view resolver-->
+	<!-- Configuracion del view resolver-->
 	<bean
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<property name="prefix" value="/WEB-INF/vista/" />

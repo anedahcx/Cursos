@@ -10,7 +10,7 @@
 
 	
 
-	<!-- Configuración del dispatcher servlet -->
+	<!-- Configuracion del dispatcher servlet -->
 	<servlet>
 		<servlet-name>dispatcher</servlet-name>
 		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
@@ -21,7 +21,7 @@
 		<load-on-startup>1</load-on-startup>
 	</servlet>
 
-	<!-- Ubicación URL del servlet -->
+	<!-- Ubicacion URL del servlet -->
 	<servlet-mapping>
 		<servlet-name>dispatcher</servlet-name>
 		<url-pattern>/</url-pattern>
